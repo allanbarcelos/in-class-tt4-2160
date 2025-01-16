@@ -1,0 +1,32 @@
+{
+  "name": "in-class-02160",
+  "version": "1.0.0",
+  "description": "<li>Bruno Silva-Cubillos</li>",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanbarcelos/in-class-02160.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanbarcelos/in-class-02160/issues"
+  },
+  "homepage": "https://github.com/allanbarcelos/in-class-02160#readme",
+  "dependencies": {
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
