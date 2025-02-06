@@ -16,6 +16,11 @@ const dbConfig = {
 
 app.use(express.json());
 
+// Main route of API
+app.get("/api", async (req, res) => {
+  res.status(200).json({ message: "API is working" });
+});
+
 app.post("/api/message", async (req, res) => {
   const { name, email, message } = req.body;
   if (!name || !email || !message) {
