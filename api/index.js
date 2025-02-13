@@ -1,13 +1,15 @@
 const express = require("express");
 const mysql = require("mysql2/promise"); // TAKE A NOTE "PROMISE"
 const dotenv = require("dotenv");
+const path = require('path');
 
 dotenv.config({ path: path.join(__dirname, ".env") });
 
 const app = express();
 
 const dbConfig = {
-  host: "127.0.0.1",
+  // host: "127.0.0.1",
+  host: 'db',
   port: 3306,
   user: process.env.MARIADB_USER,
   password: process.env.MARIADB_PASSWORD,

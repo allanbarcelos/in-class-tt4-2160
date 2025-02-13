@@ -17,3 +17,26 @@ docker run -e MARIADB_ROOT_PASSWORD=123456 -e MARIADB_DATABASE=in-class-db -e MA
 
 # Recomendation
 You can run Ubuntu container in your machine and try do simple things using Linux commands.
+
+
+# Next step
+# create multiple and independets services
+/ web --> container 1
+/ api --> container 2
+/ database --> conatiner 3 
+
+# Docker Compose
+
+
+
+
+WS1 WS2 WS3
+C1   C2  C3
+C4
+(Load Balance Server)
+
+^
+.
+.
+
+C1 C2 C3 C4 ...
