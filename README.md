@@ -28,7 +28,9 @@ You can run Ubuntu container in your machine and try do simple things using Linu
 # Docker Compose
 
 
+## Load Balance
 
+[Docker Load Balance](https://medium.com/@aedemirsen/load-balancing-with-docker-compose-and-nginx-b9077696f624)
 
 WS1 WS2 WS3
 C1   C2  C3
